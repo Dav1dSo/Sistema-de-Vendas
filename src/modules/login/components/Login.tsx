@@ -1,11 +1,12 @@
-import { BackGroundImage, ContainerLogin, IconLogin } from "../styles/Login.styles";
+import { BackGroundContainer, ContainerLogin, IconLogin } from "../styles/Login.styles";
 import { LimitedContainer } from "../styles/Login.styles";
 import  InputLogin from "../../../shared/inputs/inputs-login"
 
 const LoginHome = () => {
     return (
         <div>
-            <BackGroundImage src="./public\background2.jpg" />
+            {/* <BackGroundImage src="./public\background-login.jpg" /> */}
+            <BackGroundContainer/>
             <ContainerLogin>
                 <LimitedContainer>
                     <IconLogin src="./public\icon-login.png" />
