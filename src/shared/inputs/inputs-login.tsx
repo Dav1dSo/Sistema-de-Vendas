@@ -1,8 +1,8 @@
-import { Input as InputAntd } from "antd";
+import { Input as InputAntd, InputProps as InputAttributesAntd } from "antd";
 import { BoxInputs } from "./inputs-login.styles";
 import { LabelInput } from "./inputs-login.styles";
 
-interface InputProps {
+interface InputProps extends InputAttributesAntd {
     title?: string;
 }
 

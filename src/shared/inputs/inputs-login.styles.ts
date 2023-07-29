@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const BoxInputs = styled.div`
     input {
-        width: 40vw;
+        width: 30vw;
     }` ;
 
 export const LabelInput = styled.h3`
