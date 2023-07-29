@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const BackGroundContainer = styled.div`
-    background-image: linear-gradient(to right, black, #00d4ff);
+    background-color: black;
+    background-image: linear-gradient(to right, black, grey);
     position: absolute;
     height: 100vh;
     width: 100%;    
@@ -35,5 +36,5 @@ export const LimitedContainer = styled.div`
 `;
 
 export const IconLogin = styled.img`
-    width: 25vw;
+    width: 20vw;
 `;
